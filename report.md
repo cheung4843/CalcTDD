@@ -194,3 +194,10 @@ class Calculator:
 ![](coverage_sample.jpg)
 
 [當次推送結果](https://github.com/cheung4843/CalcTDD/actions/runs/18611365816/job/53069966604)
+
+## 
+接著來故意把原始碼寫壞，故意將除法中的 `return a / b` 改成 `return a // b`，接著再次 push，可以看到 CI 失敗了: 
+
+![](ci_fail.jpg)
+
+接著我們來還原回 `return a / b`，並再次推送: 
