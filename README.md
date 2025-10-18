@@ -200,4 +200,5 @@ class Calculator:
 
 ![](ci_fail.jpg)
 
-接著我們來還原回 `return a / b`，並再次推送: 
+接著我們來還原回 `return a / b`，並再次 push，就可以看到 CI 通過了:
+![](./ci_ok.jpg)
