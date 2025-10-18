@@ -1,4 +1,5 @@
 # HW2
+[Github連結](https://github.com/cheung4843/CalcTDD)
 ## 前置作業
 首先修改 `CalcTest.py` 的引入，改為 `from Calc import Calculator`，這樣才能正確引入。
 
@@ -185,4 +186,11 @@ class Calculator:
 ![](all_ok.jpg)
 
 ## CI 與覆蓋率
-新增了 `.github/workflows/ci.yml` 並在其中使用了 `coverage` 來產生覆蓋率報告。
+
+
+新增了 `.github/workflows/ci.yml` 並在其中使用了 `coverage` 來產生覆蓋率報告。分別在 Python 3.9~3.12 上都執行測試。 
+
+在 CI artifact 中可以看到每次的報告，類似 : 
+![](coverage_sample.jpg)
+
+[當次推送結果](https://github.com/cheung4843/CalcTDD/actions/runs/18611365816/job/53069966604)
