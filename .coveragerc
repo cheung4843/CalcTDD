@@ -1,0 +1,13 @@
+[run]
+branch = True
+source = .
+omit =
+    */venv/*,
+    */.venv/*,
+    */__pycache__/*,
+    test_*.py,
+    *_test.py
+
+[report]
+show_missing = True
+fail_under = 90
